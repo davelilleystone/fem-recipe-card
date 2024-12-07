@@ -31,7 +31,7 @@
             src="./assets/images/image-omelette.jpeg"
             alt="a folded omelette stuffed with salad with a piece of toast next to it"
           />
-          <h1>Simple Omelette Recipe</h1>
+          <h1 class="text-preset-1">Simple Omelette Recipe</h1>
         </header>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette
@@ -40,16 +40,21 @@
         </p>
 
         <section class="preparation">
-          <h2>Preparation time</h2>
+          <h2 class="text-preset-3">Preparation time</h2>
           <ul>
-            <li><span>Total: </span>Approximately 10 minutes</li>
-            <li><span>Preparation: </span>5 minutes</li>
-            <li><span>Cooking: </span>5 minutes</li>
+            <li>
+              <span class="list-item-bold">Total: </span>Approximately 10
+              minutes
+            </li>
+
+            <li><span class="list-item-bold">Preparation: </span>5 minutes</li>
+
+            <li><span class="list-item-bold">Cooking: </span>5 minutes</li>
           </ul>
         </section>
 
         <section class="ingredients">
-          <h2>Ingredients</h2>
+          <h2 class="text-preset-2">Ingredients</h2>
           <ul>
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
@@ -61,49 +66,56 @@
           </ul>
         </section>
 
+        <hr />
+
         <section class="instuctions">
-          <h2>Instructions</h2>
+          <h2 class="text-preset-2">Instructions</h2>
           <ol>
             <li>
-              <span>Beat the eggs: </span>In a bowl, beat the eggs with a pinch
-              of salt and pepper until they are well mixed. You can add a
-              tablespoon of water or milk for a fluffier texture.
+              <span class="list-item-bold">Beat the eggs: </span>In a bowl, beat
+              the eggs with a pinch of salt and pepper until they are well
+              mixed. You can add a tablespoon of water or milk for a fluffier
+              texture.
             </li>
             <li>
-              <span>Heat the pan: </span>Place a non-stick frying pan over
-              medium heat and add butter or oil.
+              <span class="list-item-bold">Heat the pan: </span>Place a
+              non-stick frying pan over medium heat and add butter or oil.
             </li>
             <li>
-              <span>Cook the omelette: </span> Once the butter is melted and
-              bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly
-              coat the surface.
+              <span class="list-item-bold">Cook the omelette: </span> Once the
+              butter is melted and bubbling, pour in the eggs. Tilt the pan to
+              ensure the eggs evenly coat the surface.
             </li>
             <li>
-              <span>Add fillings (optional): </span> When the eggs begin to set
-              at the edges but are still slightly runny in the middle, sprinkle
-              your chosen fillings over one half of the omelette.
+              <span class="list-item-bold">Add fillings (optional): </span>
+              When the eggs begin to set at the edges but are still slightly
+              runny in the middle, sprinkle your chosen fillings over one half
+              of the omelette.
             </li>
             <li>
-              <span>Fold and serve: </span>As the omelette continues to cook,
-              carefully lift one edge and fold it over the fillings. Let it cook
-              for another minute, then slide it onto a plate.
+              <span class="list-item-bold">Fold and serve: </span>As the
+              omelette continues to cook, carefully lift one edge and fold it
+              over the fillings. Let it cook for another minute, then slide it
+              onto a plate.
             </li>
             <li>
-              <span>Enjoy: </span>Serve hot, with additional salt and pepper if
-              needed.
+              <span class="list-item-bold">Enjoy: </span>Serve hot, with
+              additional salt and pepper if needed.
             </li>
           </ol>
         </section>
 
+        <hr />
+
         <section class="nutrition">
-          <h2>Nutrition</h2>
+          <h2 class="text-preset-2">Nutrition</h2>
           <p>
             The table below shows nutritional values per serving without the
             additional fillings.
           </p>
-          <table>
+          <!-- <table>
             <tbody>
-              <tr>
+              <tr class="bottom-line">
                 <th scope="row">Calories</th>
                 <td>277kcal</td>
               </tr>
@@ -122,7 +134,26 @@
                 <td>22g</td>
               </tr>
             </tbody>
-          </table>
+          </table> -->
+
+          <div class="nutrition-value-container">
+            <div class="nutrition-value-item">
+              <span>Calories</span
+              ><span class="nutrition-item-bold">277kcal</span>
+            </div>
+            <hr />
+            <div class="nutrition-value-item">
+              <span>Carbs</span><span class="nutrition-item-bold">0g</span>
+            </div>
+            <hr />
+            <div class="nutrition-value-item">
+              <span>Protein</span><span class="nutrition-item-bold">20g</span>
+            </div>
+            <hr />
+            <div class="nutrition-value-item">
+              <span>Fat</span><span class="nutrition-item-bold">22g</span>
+            </div>
+          </div>
         </section>
       </article>
     </main>
