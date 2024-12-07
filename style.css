@@ -59,6 +59,10 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+h2 {
+  color: var(--brown-800);
+}
+
 hr {
   color: var(--stone-150);
   opacity: 0.4;
@@ -93,7 +97,7 @@ ol li::marker {
 }
 
 .preparation {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: var(--rose-50);
   border-radius: 1.5rem;
 }
@@ -120,25 +124,17 @@ ol li::marker {
 
 /* nutrition section */
 
+.nutrition {
+  margin-bottom: 0;
+}
+
 .nutrition p {
   margin-bottom: 1.5rem;
 }
 
-.nutrition tr {
-  border: 1px solid black;
-  text-align: left;
-}
-
-.nutrition td {
+.nutrition-item-bold {
   color: var(--brown-800);
 }
-
-.nutrition th {
-  font-weight: 400;
-}
-
-/* nutrition */
-
 .nutrition-value-container {
   display: flex;
   flex-direction: column;
