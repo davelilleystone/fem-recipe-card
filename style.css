@@ -44,11 +44,6 @@ img {
   border-radius: 0.75rem;
 }
 
-/* h1,
-h2 {
-  font-family: "young serif", serif;
-} */
-
 h1 {
   color: var(--stone-900);
   margin-top: 2.5rem;
@@ -67,12 +62,6 @@ hr {
   color: var(--stone-150);
   opacity: 0.4;
 }
-
-/* .bottom-line {
-  border: 2px solid var(--stone-150);
-} */
-
-/* general list  */
 
 ul,
 ol {
@@ -106,13 +95,6 @@ ol li::marker {
   font-family: outfit, sans-serif;
   color: var(--rose-800);
 }
-
-/* .preparation ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-} */
 
 .preparation ul {
   padding-left: 1.5rem;
